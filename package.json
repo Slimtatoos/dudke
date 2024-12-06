@@ -1,5 +1,4 @@
-# In your proxy-server directory
-echo {
+{
   "name": "proxy-server",
   "version": "1.0.0",
   "description": "HTTPS proxy server",
@@ -16,4 +15,4 @@ echo {
   "engines": {
     "node": ">=14"
   }
-} > package.json
+}
