@@ -1,5 +1,6 @@
-# Create a file named "Dockerfile" (no extension)
-echo FROM node:14
+# Create Dockerfile using a text editor (like Notepad)
+# Content should be exactly:
+FROM node:14
 
 WORKDIR /app
 
@@ -10,4 +11,4 @@ COPY . .
 
 EXPOSE 3000
 
-CMD ["npm", "start"] > Dockerfile
+CMD ["npm", "start"]
