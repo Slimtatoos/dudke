@@ -1,9 +1,12 @@
+# In your proxy-server directory
 echo {
   "name": "proxy-server",
   "version": "1.0.0",
+  "description": "HTTPS proxy server",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "build": "echo 'Build completed'"
   },
   "dependencies": {
     "express": "^4.17.1",
